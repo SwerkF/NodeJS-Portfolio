@@ -191,6 +191,11 @@ iframe {
     padding-top: 20%;
 }
 
+#canvas3d {
+    width: 40em !important;
+    height:  31em !important;
+}
+
 
 @media screen and (max-width: 992px) {
     .bg-white {
