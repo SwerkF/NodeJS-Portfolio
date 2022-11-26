@@ -1,3 +1,6 @@
+
+
+
 .container-fb {
     display: grid; 
     grid-template-columns: 70% 30%; 
@@ -246,11 +249,15 @@
 
 .section-presentation {
     width: 100%;
-    height: 100%;
+    height: fit-content;
     background-color: #FF00A6;
+    padding-bottom: 12%;
 
 }
 
+.title-presentation  {
+    font-size: 5em; color: #F5F5F5; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #efefef;  ;
+}
 .button {
     margin-top: 3em;
     margin-left: 1em;
@@ -267,18 +274,12 @@
     transition: 200ms ease-in-out;
 }
 
-.button::after {
-    content:"Trop long à lire? Téléchargez mon cv.";
-    position: absolute;
-    transform: translate(-24em, -170%);
-    font-size: 0.7em;
-}
 
-.text-presentation {
+
+.text-presentation p {
     font-weight: 400;
-    font-size: 1.7em !important;
+    font-size: 1.6em !important;
     color: #efefef;
-    
 }
 
 .fw-700 {
@@ -289,6 +290,46 @@
 @media (max-width : 992px)  {
     .text-presentation {
         font-size: 1em !important;
+    }
+}
+
+
+@media (max-width : 1280px)  {
+    .nav-item {
+        display: none;
+    }
+
+    .nav-item-last {
+        display: none;
+    }
+    
+}
+
+
+@media (max-width : 537px)  {
+    .nav-item {
+        display: none;
+    }
+
+    .nav-item-last {
+        display: none;
+    }
+
+    .w-100 {
+        width: 0px;
+    }
+
+    .title-presentation {
+        font-size: 3em;
+    }
+
+    .text-presentation {
+        font-size: 0.7em !important;
+    }
+    
+    .button {
+        width: fit-content;
+        font-size: 0.7em !important;
     }
 }
 
