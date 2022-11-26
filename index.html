@@ -1,110 +1,65 @@
-
 <html>
-    <head><meta charset="UTF-8" />
-        <!-- Links -->
-        <link rel="stylesheet" href="./src/css/bootstrap.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./src/css/style.css">
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        <!-- Scripts -->
-        <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
-
-        <!-- Meta Data -->
-        <meta charset="utf-8">
-        <meta name="title" content="Website Title"/>
-        <meta name="description" content="Website Description"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    </head>
-    <body><div id="particles-js"></div>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand w-100 color-f5" href="#">OLIWER SKWERES</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active color-f5" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color-f5" href="#">Projets</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color-f5" href="#">Stages</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color-f5" href="#">Certifications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color-f5" href="#">Veilles</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color-f5" href="#">Contact</a>
-                  </li>
-                  
-                </ul>
-                
-              </div>
-            </div>
-        </nav>
-        
-        <div class="container">
-            <div class="row align-items-center title text-center">
-                <div class="col">
-                    <h1 class="color-f5 title-name">OLIWER SKWERES</h1>
-                    <h2 class="color-f5 subtitle-title">Futur développeur front.</h2>
-                    <div class="decoration">
-                      <div class="rainbow-decoration">&nbsp;</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-pr align-items-center about">
-              <div class="border row align-items-center">
-                <div class="col">
-                <h3 class="color-f5 about-title">About</h3>
-                  <p>Hey, je m'appelle Oliwer Skweres, pseudonyme Swerk sur les réseaux sociaux, et je suis un étudiant en BTS SIO orienté développeur. Je souhaite devenir 
-                    un UI/UX designer et développeur front-end. Je suis passionnée par l'informatique, j'aime travailler sur des projets personnels afin d'apprendre toujours plus
-                    sur le monde qu'est le développement web.
-                  </p>
-                </div>
-                <div class="col">
-                  <canvas id="canvas3d" width="200" height="200"></canvas>
-                  <a class="logo" href="https://spline.design"></a>
-                  <!-- Import maps polyfill -->
-                  <!-- Remove this when import maps will be widely supported -->
-                  <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
-                  <script type="importmap">
-                    {
-                      "imports": {
-                        "@splinetool/runtime": "https://unpkg.com/@splinetool/runtime@0.9.143/build/runtime.js"
-                      }
-                    }
-                  </script>
-                  <script type="module" src="./src/js/index.js"></script>
-              </div>
+  <head>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <script src="src/js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Syne:wght@400;500;600;700;800&family=Viaoda+Libre&display=swap" rel="stylesheet"> 
+<meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+  <body>
+    <div class="navbar-c">
+      <div class="d-flex">
+        <p class="align-items-center f-syne-black color-white w-100 logo"><span class="hover-text-animate-b">O</span><span class="hover-text-animate-p">S</span></p>
+        <div class="d-flex">
+          <p class="align-items-center nav-item f-syne-black color-white">•&nbsp;ACCUEIL</p>
+          <p class="align-items-center nav-item f-syne-black color-white">•&nbsp;ABOUT</p>
+          <p class="align-items-center nav-item f-syne-black color-white">•&nbsp;PROJETS</p>
+          <p class="align-items-center nav-item f-syne-black color-white">•&nbsp;VEILLES</p>
+          <p class="align-items-center nav-item-last f-syne-black color-white">•&nbsp;CERTIF</p>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="container-fb">
+      <div class="square">
+        <div class="inner-square">
+          <div class="inner d-flex flex-wrap" style="height: 65vh">
+            <h1 class="text-os color-white f-krona">O<span class="color-br">S</span></h1>
+            <h2 class="text-os2 color-white f-krona">OLIWER <span class="color-br">S</span>KWERES</h2>
           </div>
         </div>
-        <footer>
-          <script type="text/javascript">
-
-            options = {
-              "cursorOuter": "circle-basic",
-              "hoverEffect": "circle-move",
-              "hoverItemMove": false,
-              "defaultCursor": false,
-              "outerWidth": 30,
-              "outerHeight": 30
-            };
-
-            magicMouse(options);
-          </script>
-         <script src="./src/js/particles.js"></script>
-         <script src="./src/js/main.js"></script>
-         
-         
-        </footer>
-    </body>
+      </div>
+      <div class="first form-col1"><p class="f-krona" style="color:aliceblue; font-size: 5.2vw;">FUTUR</p></div>
+      <div class="Second form-col2"><p class="f-viaoda" style="color:aliceblue; font-size: 5.2vw;">WEB</p></div>
+      <div class="Third form-col3"><p class="f-syne-black" style="color:rgb(0, 0, 0); font-size: 5.8vw;">DESI</p></div>
+      <div class="Fourth form-col4"><p class="f-syne-black" style="color:aliceblue; font-size: 5.8vw;">GNER</p></div>
+    </div>
+    <div class="container-fb2">
+      <div class="Third form-col3"><p class="f-syne-black" style="color:rgb(0, 0, 0); font-size: 5.8vw;"></p></div>
+      <div class="Fourth form-col4"><p class="f-syne-black" style="color:aliceblue; font-size: 5.8vw;"></p></div>
+    </div>
+    <svg style="transform: translateY(-99%); position:absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#FF00A6" fill-opacity="1" d="M0,160L48,165.3C96,171,192,181,288,197.3C384,213,480,235,576,218.7C672,203,768,149,864,154.7C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    <div class="section-presentation">
+      
+      <div class="container text-center d-flex align-items-center" style="height: 100%;">
+        <div class="row">
+          <h2 class="f-syne-black" style="font-size: 4em; color: #F5F5F5; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #efefef;">about me</h2>
+          <div class="text-presentation">
+            <p class="f-syne">Je m'appelle <span class="fw-700">Oliwer</span>, j'ai 20 ans et j'habite à <span class="fw-700">Evreux</span>. Je suis une personne passionnée par l'informatique mais surtout par le <span class="fw-700">web design</span>. Je voudrais faire de cette activité un métier plus tard.</p>
+            <p class="f-syne">Si je devais citer quelques unes de mes passions ce serait sûrement<span class="fw-700"> les jeux vidéos, la musique, les sorties entre amis et design</span>.  L'année prochaine, j'espère pouvoir poursuivre mes études à <span class="fw-700">L'IPSSI</span></p>
+            <p class="f-syne"><span class="fw-700">Je travail constament sur un projet personnel chez moi afin d'apprendre toujours plus.Accutellement</span>, j'essaye d'apprendre d'autres langages web afin de me spécialiser dans l'un d'entre eux, comme <span class="fw-700">React</span>.</p>
+          </div>
+          <div class="col">
+            <p class="text-center">fff</p>
+            <button class="btn button">Cliquez ici pour télécharger mon CV.</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
